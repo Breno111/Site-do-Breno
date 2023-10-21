@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Breno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+	  <div class="menuColor">
+		<ul class="menu">
+		  <li class="game">
+        <a href="#pong">pong</a>
+		  </li>
+		  <li class="game">
+		    <a href="#race">jogo da corrida</a>
+		  </li>
+		  <li class="game">
+		    <a href="#sorvete">sorveteria</a>
+		  </li>
+		</ul>
+	  </div>
+        <h1 id="title">Site do Breno</h1>
+        <p id="projects">meus jogos :</p>
+        <p id="pong">pong</p>
+        <iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/Zgr4RaLPdtEm2XTLOo_kF2UGvXDbQQ3qlFV4vGy02x6/embed?nosource"></iframe>
+        <p id="race">jogo da corrida</p>
+        <iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/byM32ASIp0LdggCHiFOvTzW-nByeU4hyRgeKuMvDVFO/embed?nosource"></iframe>
+        <p>meus programas :</p>
+        <p id="sorvete">Sorveteria</p>
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/NO1Z-j2l_7kxm31IR_jVwmNh5m0SZsNp84A_6l52cC2/embed?nosource"></iframe>
+    </center>
+    <img id="image" src="breno.jpg">
+    <p id="sobre">Breno e apenas um programador qualquer :P</p>
+</body>
+<style>
+    *{
+        background-color :crimson;
+    }
+    button{
+        background-color :white;
+    }
+    h1{
+        font-family :'Caveat Brush',cursive;
+        color :white;
+        font-size :90px;
+    }
+    p{
+        font-family :'Arial';
+        color :white;
+    }
+    .menu{
+		list-style :none;
+		position :absolute;
+		top :10px;
+		right :30px;
+		z-index :10;
+		cursor :pointer;
+	}
+	.game{
+		float :left;
+		padding :10px;
+		font-size :20px;
+	}
+	.menuColor{
+		background-color :gray;
+		width :'100%';
+	}
+</style>
+</html>
+<script src="script.js"></script>
